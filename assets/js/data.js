@@ -18,9 +18,9 @@ window.SYNWEB = {
   announcement: "SynWeb has been accepted as a workshop at TheWebConf 2027. The call for papers is open.",
 
   dates: [
-    { label: "Paper submission deadline", date: null },
-    { label: "Author notification",       date: null },
-    { label: "Camera-ready deadline",     date: null },
+    { label: "Paper submission deadline", date: "04 January 2027" },
+    { label: "Author notification",       date: "01 February 2027" },
+    { label: "Camera-ready deadline",     date: "16 February 2027" },
     { label: "Workshop day",              date: null, event: true,
       note: "Half-day session at TheWebConf 2027, Dublin, Ireland" }
   ],
