@@ -47,13 +47,13 @@ window.SYNWEB = {
 
   // Program committee. Only entries with confirmed: true are shown on the site.
   pc: [
-    { name: "Can Polat", affiliation: "Texas A&M University, USA", confirmed: true },
-    { name: "Parichit Sharma", affiliation: "University of Maryland, USA", confirmed: true },
-    { name: "Mert Onur Cakiroglu", affiliation: "Indiana University Bloomington, USA", confirmed: true },
-    { name: "Rasul Khanbayov", affiliation: "Hamad Bin Khalifa University, Qatar", confirmed: true },
-    { name: "Idil Bilge Altun", affiliation: "Indiana University Bloomington, USA", confirmed: true },
-    { name: "Mustafa Kurban", affiliation: "Ankara University, Türkiye", confirmed: true },
-    { name: "Firoj Alam", affiliation: "Qatar Computing Research Institute, Qatar", confirmed: true },
+    { name: "Can Polat", affiliation: "Texas A&M University, USA", confirmed: false },
+    { name: "Parichit Sharma", affiliation: "University of Maryland, USA", confirmed: false },
+    { name: "Mert Onur Cakiroglu", affiliation: "Indiana University Bloomington, USA", confirmed: false },
+    { name: "Rasul Khanbayov", affiliation: "Hamad Bin Khalifa University, Qatar", confirmed: false },
+    { name: "Idil Bilge Altun", affiliation: "Indiana University Bloomington, USA", confirmed: false },
+    { name: "Mustafa Kurban", affiliation: "Ankara University, Türkiye", confirmed: false },
+    { name: "Firoj Alam", affiliation: "Qatar Computing Research Institute, Qatar", confirmed: false },
     { name: "Mustafa Jarrar", affiliation: "Qatar Computing Research Institute, Qatar", confirmed: false },
     { name: "Huiping Chen", affiliation: "University of Birmingham, UK", confirmed: false },
     { name: "Benjamin Jacobsen", affiliation: "University of York, UK", confirmed: false },
