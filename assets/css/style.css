@@ -276,3 +276,16 @@ code { font-size: 0.9em; background: var(--accent-soft); padding: 0.1em 0.35em; 
 .site-footer p { margin: 0; }
 .site-name { white-space: nowrap; }
 @media (max-width: 26rem) { .site-name span { display: none; } }
+
+/* Organizer photo grid */
+.organizers { grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 2.5rem 1.5rem; }
+.organizers li { display: block; text-align: center; }
+.org-photo {
+  position: relative; width: 11rem; height: 11rem; margin: 0 auto 1rem; border-radius: 50%;
+  border: 3px solid var(--accent); overflow: hidden; background: var(--accent-soft);
+  display: grid; place-items: center;
+}
+.org-photo span { font: 700 2.25rem var(--font-sans); color: var(--accent-strong); }
+.org-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.organizers h3 { margin: 0; font-size: 1.15rem; }
+.organizers .org-aff { margin: 0.25rem auto 0; max-width: 18rem; }
