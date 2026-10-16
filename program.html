@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Program | SynWeb @ TheWebConf 2027</title>
+  <meta name="description" content="Tentative program for SynWeb at TheWebConf 2027, including the interactive benchmark design session.">
+  <meta property="og:title" content="Program | SynWeb @ TheWebConf 2027">
+  <meta property="og:description" content="Tentative program for SynWeb at TheWebConf 2027, including the interactive benchmark design session.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="index.html"><img src="assets/img/favicon.svg" alt="" width="26" height="26">SynWeb <span>@ TheWebConf 2027</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cfp.html">Call for Papers</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="papers.html">Accepted Papers</a></li>
+          <li><a href="committee.html">Organizers</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="page-head">
+    <div class="wrap">
+      <h1>Program</h1>
+      <p>Tentative half-day program. Slot allocation depends on the number and type of accepted contributions.</p>
+    </div>
+  </div>
+  <main id="main">
+    <div class="wrap">
+      <h2>Schedule</h2>
+      <p><span data-workshop-date>Date to be announced</span>, TheWebConf 2027, Dublin. All times are local (<span data-tz>IST, UTC+1</span>).</p>
+      <div class="table-scroll">
+        <table class="schedule">
+          <thead><tr><th scope="col">Time</th><th scope="col">Session</th></tr></thead>
+          <tbody data-program></tbody>
+        </table>
+      </div>
+      <p class="fineprint">Paper assignments to sessions will be posted after author notification. See <a href="papers.html">Accepted Papers</a>.</p>
+
+      <h2>Interactive benchmark and evaluation design session</h2>
+      <p>SynWeb is built around discussion rather than a sequence of conventional talks. In the interactive session, participants work in groups on three themes. Each group identifies a tractable evaluation task, suitable data sources, baseline checks, and minimum reporting requirements.</p>
+      <div class="themes">
+        <section class="theme">
+          <h3>Provenance and verification</h3>
+          <p>What evidence, metadata, and validation mechanisms are needed before synthetic data can be reliably reused in web applications?</p>
+        </section>
+        <section class="theme">
+          <h3>Contamination and distribution shift</h3>
+          <p>How should synthetic data be evaluated when it interacts with human-generated content, model-generated content, and downstream training or retrieval pipelines?</p>
+        </section>
+        <section class="theme">
+          <h3>Downstream web utility</h3>
+          <p>Which evaluation settings show whether synthetic data is useful for search, recommendation, knowledge extraction, content moderation, and web-agent evaluation?</p>
+        </section>
+      </div>
+
+      <h2>Community roadmap</h2>
+      <p>The organizers will consolidate the session outcomes into a public SynWeb research and evaluation roadmap, including a preliminary benchmark specification and a minimum reporting checklist. It will be linked from this site after the workshop.</p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>SynWeb, 1st Workshop on Trustworthy Synthetic Data for the Web: Generation, Verification, and Governance. Held at <a href="https://www2027.thewebconf.org/">TheWebConf 2027</a>, Dublin, Ireland.</p>
+      <p>Contact: <a data-contact href="mailto:sabdaljalil@tamu.edu">sabdaljalil@tamu.edu</a></p>
+    </div>
+  </footer>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

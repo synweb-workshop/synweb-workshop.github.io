@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SynWeb @ TheWebConf 2027 | 1st Workshop on Trustworthy Synthetic Data for the Web: Generation, Verification, and Governance</title>
+  <meta name="description" content="SynWeb is a half-day workshop at TheWebConf 2027 in Dublin on how synthetic web data should be generated, verified, documented, and evaluated before it is reused.">
+  <meta property="og:title" content="SynWeb @ TheWebConf 2027 | 1st Workshop on Trustworthy Synthetic Data for the Web: Generation, Verification, and Governance">
+  <meta property="og:description" content="SynWeb is a half-day workshop at TheWebConf 2027 in Dublin on how synthetic web data should be generated, verified, documented, and evaluated before it is reused.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="index.html"><img src="assets/img/favicon.svg" alt="" width="26" height="26">SynWeb <span>@ TheWebConf 2027</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cfp.html">Call for Papers</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="papers.html">Accepted Papers</a></li>
+          <li><a href="committee.html">Organizers</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="hero-title">SynWeb</h1>
+      <p class="hero-full">1st Workshop on Trustworthy Synthetic Data for the Web: Generation, Verification, and Governance</p>
+      <p class="hero-venue">Half-day workshop at TheWebConf 2027, Dublin, Ireland. <span data-workshop-date>Date to be announced</span>.</p>
+      <div class="hero-actions">
+        <a class="button" href="cfp.html">Read the call for papers</a>
+        <a class="button secondary" data-submit data-label-open="Submit a paper" data-label-closed="Submission portal opens soon">Submission portal opens soon</a>
+      </div>
+      <p class="countdown" data-countdown hidden></p>
+      <ol class="pipeline" aria-label="The synthetic data lifecycle SynWeb studies">
+        <li><span class="stage-name">Generate</span><span class="stage-desc">Corpora, profiles, records, and benchmarks from language and multimodal models</span></li>
+        <li><span class="stage-name">Constrain</span><span class="stage-desc">Retrieval, knowledge, schema, and rules</span></li>
+        <li><span class="stage-name">Verify</span><span class="stage-desc">Factuality, consistency, uncertainty, provenance</span></li>
+        <li><span class="stage-name">Curate</span><span class="stage-desc">Filter, document, and combine with observed data</span></li>
+        <li><span class="stage-name">Evaluate</span><span class="stage-desc">Measured on search, recommendation, and other web tasks</span></li>
+        <li><span class="stage-name">Release</span><span class="stage-desc">Licensing, privacy, governance, and reporting</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <main id="main">
+    <div class="wrap">
+      <div class="announcement" data-announcement hidden><p></p></div>
+      <div class="layout">
+        <div>
+          <h2>About the workshop</h2>
+          <p>Large language and multimodal models are now used to create training corpora, benchmarks, user and item profiles, structured records, and evaluation data for web-facing systems. At the same time, machine-generated content is becoming part of the web itself. This raises open questions about provenance, contamination, distribution shift, privacy, and whether synthetic data actually improves downstream web tasks.</p>
+          <p>SynWeb brings together researchers and practitioners in web data management, information retrieval, NLP, recommender systems, and responsible AI to study this problem end to end: how synthetic web data should be generated, verified, documented, stress-tested, and evaluated before it is reused. The program combines technical contributions with a benchmark design session and a community roadmap.</p>
+
+          <h2>Objectives</h2>
+          <ol class="objectives">
+            <li><strong>Verification-first design principles</strong> for synthetic data used in web-facing systems, with explicit attention to provenance, grounding, uncertainty, and reproducibility.</li>
+            <li><strong>Web-specific failure modes</strong>, including fabricated entities or relations, synthetic-content contamination, distribution shift, privacy leakage, and feedback effects when generated content is repeatedly reused.</li>
+            <li><strong>Shared evaluation protocols</strong> that connect intrinsic data quality to measurable downstream utility on search, recommendation, fact verification, knowledge extraction, and content moderation.</li>
+            <li><strong>A community roadmap and benchmark specification</strong> identifying priority tasks, reporting practices, and reusable resources for trustworthy synthetic web data.</li>
+          </ol>
+
+          <h2>Why now</h2>
+          <p>Access to platform and user-generated data is increasingly constrained by licensing, privacy, cost, and platform policy, while generative models make large synthetic datasets cheap to produce. Web systems also operate in environments that mix human- and machine-generated content. Methods for grounded generation, uncertainty estimation, provenance tracking, and model-based verification have advanced quickly, but they are usually evaluated in isolation. The community still lacks common protocols for deciding when synthetic data is fit for a particular web task and how its limitations should be reported.</p>
+
+          <h2>Focus: the data layer</h2>
+          <p>Recent TheWebConf workshops address trustworthiness at the level of models, grounding, harmful content, and agent architectures. SynWeb focuses on the data layer: how synthetic web data is generated, verified, documented, combined with observed data, and evaluated before downstream web systems reuse it. Synthetic-content detection is studied where generated content enters, contaminates, or augments the pipelines used to train, evaluate, or operate web systems.</p>
+
+          <h2>What the workshop will produce</h2>
+          <p>Participants will jointly identify evaluation requirements, benchmark tasks, and reporting practices. The organizers will publish the outcome as the SynWeb roadmap, with a preliminary benchmark specification and a minimum reporting checklist for trustworthy synthetic web data.</p>
+          <p><a href="cfp.html">See topics, submission types, and formatting rules in the call for papers.</a></p>
+        </div>
+
+        <aside class="aside">
+        <section class="panel" aria-labelledby="dates-h">
+          <h2 id="dates-h">Important dates</h2>
+          <ol class="dates" data-dates></ol>
+          <p class="fineprint">Paper deadlines are 23:59 Anywhere on Earth (UTC-12). Workshop times are local Dublin time (<span data-tz>IST, UTC+1</span>).</p>
+        </section>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>SynWeb, 1st Workshop on Trustworthy Synthetic Data for the Web: Generation, Verification, and Governance. Held at <a href="https://www2027.thewebconf.org/">TheWebConf 2027</a>, Dublin, Ireland.</p>
+      <p>Contact: <a data-contact href="mailto:sabdaljalil@tamu.edu">sabdaljalil@tamu.edu</a></p>
+    </div>
+  </footer>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
